@@ -1,1 +1,6 @@
-
+#program to print sum of n numbers
+n=int(input())
+sum=0
+for i in range(n):
+  sum=sum+i
+print(sum)
